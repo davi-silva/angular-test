@@ -1,0 +1,39 @@
+$primary: rgba(111, 0, 255)
+
+h1
+  font-size: 22px
+  margin: 6px 0
+
+.play-container
+  font-size: 17px
+  margin: 10px 0
+
+  button
+    user-select: none
+    background: $primary
+    padding: 4px 10px
+    border-radius: 50px
+    border: none
+    color: #ffffff
+
+    &:hover
+      cursor: pointer
+
+    &:focus
+      outline: none
+
+    &:active
+      background: darken($primary, 10%)
+
+.template
+  padding: 20px
+  margin:  15px 0
+  border: 1px solid transparent
+
+
+.active
+  background: yellow
+  border: 1px solid #000
+
+.notActive
+  background: lightgray
